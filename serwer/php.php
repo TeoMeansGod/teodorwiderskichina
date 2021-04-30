@@ -1,4 +1,13 @@
 <?php
+session.save_handler=memcached;
+session.save_path="${MEMCACHIER_SERVERS}";
+
+memcached.sess_binary_protocol=1; # for ext-memcached 3 / PHP 7
+
+memcached.sess_sasl_username="${MEMCACHIER_USERNAME}";
+memcached.sess_sasl_password="${MEMCACHIER_PASSWORD}";
+
+memcached.sess_persistent=On;
 session_save_path("C:/xampp/htdocs/china/tmp");
 session_start();
 $mysqli = mysqli_connect('eu-cdbr-west-01.cleardb.com', 'b1bed430e98974', '64f23498', 'heroku_01bf80041e7047e');
