@@ -1,7 +1,7 @@
 <?php
 session_save_path("C:/xampp/htdocs/china/tmp");
 session_start();
-$mysqli = mysqli_connect('localhost', 'root', '1234', 'china');
+$mysqli = mysqli_connect('eu-cdbr-west-01.cleardb.com', 'b1bed430e98974', '64f23498', 'heroku_01bf80041e7047e');
 $mysqli->query("set names urf8");
 $players_table = array();
 $table = get_data("SELECT * FROM `chinamen`");
