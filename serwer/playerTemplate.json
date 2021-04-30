@@ -1,0 +1,28 @@
+{
+    "color": "",
+    "nick": "",
+    "connected": false,
+    "ready": false,
+    "paws": {
+        "p1": {
+            "isInBase": true,
+            "isInStartPoint": false,
+            "position": 1
+        },
+        "p2": {
+            "isInBase": true,
+            "isInStartPoint": false,
+            "position": 2
+        },
+        "p3": {
+            "isInBase": true,
+            "isInStartPoint": false,
+            "position": 3
+        },
+        "p4": {
+            "isInBase": true,
+            "isInStartPoint": false,
+            "position": 4
+        }
+    }
+}
