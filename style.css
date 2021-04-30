@@ -1,0 +1,27 @@
+#canvas {
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: bisque;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.55);
+          box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.55);
+}
+
+.players {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.players > div {
+  background-color: aqua;
+  margin: .2rem;
+  border: 2px solid black;
+  border-radius: .1rem;
+  padding: .5rem;
+  font-size: 1.5rem;
+  min-width: 4rem;
+  min-height: 2rem;
+  -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.55);
+          box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.55);
+}
+/*# sourceMappingURL=style.css.map */
